@@ -1,0 +1,85 @@
+/*page-header-actionbar*/
+.kigui-p-h {
+    background-color:#303030;
+}
+/*page-sidebar*/
+.kigui-p-s {
+    background-color:#303030;
+    color:#fafafa;
+}
+.kigui-p-s-h {
+    background-color:#242424;
+    color:#fafafa;
+
+}
+
+.kigui-p-s-b-c > ul > li {
+    /*카테고리 구분*/
+    border-bottom:1px solid #fafafa;
+}
+
+/*page-content*/
+.kigui-p-c {
+    padding:10px;
+}
+
+/*object-button-normal*/
+.kigui-o-b-n {
+    /*일반 버튼 배경색*/
+    background-color: #4f4f4f;
+    /*일반 버튼 상단 여백*/
+    margin-top:10px;
+}
+.kigui-o-b-n:hover {
+    /*버튼 위에 마우스 올릴시 배경색*/
+    background-color:#303030;
+}
+/*object-button-float*/
+.kigui-o-b-f {
+    /*우측 하단 원형 버튼 배경색*/
+    background-color:#303030;
+    /*우측 하단 원형 버튼 글자색*/
+    color:#fafafa;
+}
+/*object-text*/
+.kigui-o-t {
+    /*텍스트 박스 하단 줄 색깔*/
+    border-bottom:2px solid rgba(0, 0, 0, 0.2);
+}
+.kigui-o-t:focus {
+    /*텍스트 박스 하단 줄 색깔(선택 시)*/
+    border-bottom-color:rgba(0, 0, 0, 0.5);
+}
+
+/*object-swtich*/
+.kigui-o-s-l {
+    /*스위치 OFF시 원 부분*/
+    background-color:gray;
+}
+.kigui-o-s > input[type="checkbox"]:checked ~ .kigui-o-s-l {
+    /*스위치 ON시 원 부분*/
+    background-color: deepskyblue;
+}
+.kigui-o-s-b {
+    /*스위치 OFF시 바 부분*/
+    background-color:lightgray;
+}
+
+.kigui-o-s > input[type="checkbox"]:checked ~ .kigui-o-s-b {
+    /*스위치 ON시 바 부분*/
+    background-color:lightskyblue;
+}
+
+.kigui-p-h-m {
+    /*헤더 메시지 배경색*/
+    background-color: #ff8874;
+    /*헤더 메시지 글자색*/
+    color:#fafafa;
+}
+
+.kigui-o-c > input[type="checkbox"]:checked ~ .kigui-o-c-b {
+    /*체크 박스 체크시 배경색*/
+    background-color:#066de2;
+    /*체크 표시 색상*/
+    color:#fafafa;
+}
