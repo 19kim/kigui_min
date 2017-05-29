@@ -1,29 +1,27 @@
 /*page-header-actionbar*/
-.kigui-p-h {
+.kigui-l-h {
     background-color:#303030;
 }
 /*page-sidebar*/
-.kigui-p-s {
+.kigui-l-s {
     background-color:#303030;
     color:#fafafa;
 }
-.kigui-p-s-h {
+.kigui-l-s-h {
     background-color:#242424;
     color:#fafafa;
 
 }
 
-.kigui-p-s-b-c > ul > li {
+.kigui-l-s-b-c > ul > li {
     /*카테고리 구분*/
     border-bottom:1px solid #fafafa;
 }
 
-/*page-content*/
-.kigui-p-c {
+.kigui-l-c {
     padding:10px;
 }
 
-/*object-button-normal*/
 .kigui-o-b-n {
     /*일반 버튼 배경색*/
     background-color: #4f4f4f;
@@ -54,23 +52,23 @@
 /*object-swtich*/
 .kigui-o-s-l {
     /*스위치 OFF시 원 부분*/
-    background-color:gray;
+    background-color: #f1f1f1;
 }
 .kigui-o-s > input[type="checkbox"]:checked ~ .kigui-o-s-l {
     /*스위치 ON시 원 부분*/
-    background-color: deepskyblue;
+    background-color: #0f9900;
 }
 .kigui-o-s-b {
     /*스위치 OFF시 바 부분*/
-    background-color:lightgray;
+    background-color: #a4a4a4;
 }
 
 .kigui-o-s > input[type="checkbox"]:checked ~ .kigui-o-s-b {
     /*스위치 ON시 바 부분*/
-    background-color:lightskyblue;
+    background-color: #2adc71;
 }
 
-.kigui-p-h-m {
+.kigui-l-h-m {
     /*헤더 메시지 배경색*/
     background-color: #ff8874;
     /*헤더 메시지 글자색*/
